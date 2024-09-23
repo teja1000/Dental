@@ -1,3 +1,5 @@
+import Button from "./Button"
+import { Link } from "react-router-dom"
 const Quote=()=>{
   return(
     <div className="flex items-center h-screen pl-20">
@@ -8,7 +10,10 @@ const Quote=()=>{
 
         <div className="pt-5 text-xl text-gray-600 font-medium">Light Dental Clinc Can Help You Get The Smile You've Always Wanted.</div>
         <div className=" text-xl text-gray-600 font-medium">We Offer Cosmetic Dentistry,Root Canal Therapy,Cavity Inspections.</div>
-        <div className=" text-xl text-gray-600 font-medium">And More.</div>
+        <div className=" text-xl text-gray-600 font-medium mb-3">And More.</div>
+        <Link to="/Appoinment">
+        <Button/>
+        </Link>
 
         
        </div>

@@ -4,6 +4,7 @@ import Home from "./pages/Home"
 import Services from "./pages/Services"
 import Reviews from "./pages/Reviews"
 import Address from "./pages/Address"
+import BookingPage from "./components/Appoinment"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Services" element={<Services/>}/>
         <Route path="/Reviews" element={<Reviews/>}/>
         <Route path="/Address" element={<Address/>}/>
+        <Route path="/Appoinment" element={<BookingPage/>}/>
       </Routes>
       </BrowserRouter>
     </>

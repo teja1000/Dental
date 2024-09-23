@@ -1,3 +1,5 @@
+
+
 const About=()=>{
   return(
     <div className="flex h-screen px-20">
@@ -13,7 +15,7 @@ const About=()=>{
   <div className="text-xl text-slate-950  pt-5">We provide the most advanced treatments available in the market.</div>
   <div className="text-xl text-slate-950 pt-5">Gets the job done without making you go through any hassle or discomfort.</div>
 </div>
-
+  
 
     </div>
   )
